@@ -759,6 +759,9 @@ a:hover > .arrow-move,
   padding: 1.75rem;
   background: var(--ink-900);
 }
+@media (min-width: 992px) {
+  .why-grid-4 { grid-template-columns: repeat(4, 1fr); }
+}
 .why-item i { font-size: 1.5rem; color: var(--accent); }
 .why-item h3 { margin: 1.25rem 0 0; font-size: 1rem; }
 .why-item p {
@@ -837,7 +840,20 @@ a:hover > .arrow-move,
   font-weight: 600;
   letter-spacing: -0.025em;
 }
+.pkg-price sup {
+  top: -0.9em;
+  margin-left: 0.125rem;
+  font-size: 0.45em;
+  font-weight: 500;
+  color: var(--ink-400);
+}
 .pkg .btn { margin-top: 2rem; }
+.pkg-note {
+  margin: 2rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--ink-400);
+}
 
 .check-list {
   flex: 1;

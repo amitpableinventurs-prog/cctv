@@ -240,7 +240,7 @@ Please share an exact quote.`);
 
     function updateWhatsapp() {
       const v = values();
-      whatsappBtn.href = waLink(`Hi, I'd like a free site survey.
+      whatsappBtn.href = waLink(`Hi, I'd like to book a site survey.
 Name: ${v.name}
 Location: ${v.location}
 Property: ${v.propertyType}

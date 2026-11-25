@@ -3,4 +3,4 @@ Allow: /
 Disallow: /contact.php
 Disallow: /data/
 
-Sitemap: https://uniqueautomationcctv.in/sitemap.xml
+Sitemap: https://uniqueautomationcctvinstalling.in/sitemap.xml
